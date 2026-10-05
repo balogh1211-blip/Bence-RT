@@ -1,0 +1,34 @@
+/* TODO: ITT DOLGOZZON */
+
+img {
+    border-radius: 5px;
+}
+
+.pagePath{
+    color: gray;
+}
+
+.pagePath span{
+    color: black;
+}
+
+.addToCartBtn:hover {
+    background-color: var(--color-blue-shade);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+    .customerReviewsMain {
+        grid-template-columns: 1fr;
+    }
+}
